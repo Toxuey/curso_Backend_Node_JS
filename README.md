@@ -1,4 +1,4 @@
-# Curso Node.js: resumen del post (repaso futuro)
+# Curso Node.js: resumen del post
 
 Este repo contiene 4 ejercicios de backend con Node.js puro (`http`), sin Express.
 La idea es repasar fundamentos: servidor HTTP, rutas, `req`, `res`, JSON, metodo `POST`.
@@ -119,11 +119,3 @@ curl -X POST http://localhost:3000/sumar \
   -H "Content-Type: application/json" \
   -d '{"num1":10,"num2":5}'
 ```
-
-## Checklist de repaso (rapido)
-
-- Entiendo diferencia entre `req` y `res`.
-- Se leer `req.url` y `req.method`.
-- Se responder texto y JSON.
-- Se recibir body en `POST`.
-- Se convertir JSON de entrada y salida (`JSON.parse` / `JSON.stringify`).
