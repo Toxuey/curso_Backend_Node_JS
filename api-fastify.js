@@ -13,7 +13,8 @@ fastify.get("/", async (request, reply) => {
   return {
     api: "CrisLab Public API",
     version: "1.0",
-    endpoints: ["/hora", "/random", "/frase"]
+    endpoints: ["/hora", "/random", "/frase"],
+    message: "Bienvenido a la API pública de CrisLab"
   };
 });
 
